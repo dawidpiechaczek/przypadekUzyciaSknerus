@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.david.przypadekuzyciatelefon.activity.LoginActivity">
+
+    <TextView
+        android:text="Sknerus.pl"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#585858"
+        android:textColor="#FFFFFF"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:layout_below="@+id/tv_password"
+        android:layout_alignRight="@+id/et_login"
+        android:layout_alignEnd="@+id/et_login"
+        android:id="@+id/et_password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:id="@+id/et_login"
+        android:layout_below="@+id/tv_login"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:id="@+id/tv_login"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignLeft="@+id/et_login"
+        android:layout_alignStart="@+id/et_login" />
+
+    <TextView
+        android:text="Hasło"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_password"
+        android:layout_below="@+id/et_login"
+        android:layout_alignLeft="@+id/et_password"
+        android:layout_alignStart="@+id/et_password" />
+
+    <Button
+        android:text="OFERTA KURSÓW"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btn_offer"
+        android:layout_alignBottom="@+id/btn_login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_login" />
+
+    <Button
+        android:text="LOGOWANIE"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Logowanie"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#003300"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:id="@+id/btn_login_2"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/et_password"
+        android:layout_alignLeft="@+id/btn_register"
+        android:layout_alignStart="@+id/btn_register" />
+
+    <Button
+        android:text="Rejestracja"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="#003300"
+        android:paddingRight="22dp"
+        android:paddingLeft="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/btn_login_2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

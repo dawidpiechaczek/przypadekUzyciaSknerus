@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'jdepend'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task jdepend(type: JDepend, dependsOn: 'compileDebugSources') {
+    classesDir file('build/intermediates/classes/debug/com/example/david/przypadekuzyciatelefon')
+    reports {
+        xml {
+            destination 'build/reports/jdepend.xml'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:text="Sknerus.pl"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#585858"
+        android:textColor="#FFFFFF"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chcę kupić walutę"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ilość"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chcę sprzedać walutę"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/textView12"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurs"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wartość"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:editable="false"
+        android:text="waluta"
+        android:paddingTop="3dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:background="@color/white"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ilość"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:editable="false"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="waluta2"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:editable="false"
+        android:layout_marginRight="20dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kurs"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/editText5"
+        android:editable="false"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wartosc"
+        android:textSize="20sp"
+        android:editable="false"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:text="Akceptuj"
+        android:background="#5cd65c"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/button2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:text="Anuluj"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="#ff704d"
+        android:id="@+id/button5"
+
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/textView10" />
+
+</RelativeLayout>

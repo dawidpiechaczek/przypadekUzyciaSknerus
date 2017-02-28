@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Sknerus.pl</string>
+    <string-array name="planets_array">
+        <item>AUD-dolar australijski</item>
+        <item>BGN-nowy lew bułgarski</item>
+        <item>BRL-real brazylijski</item>
+        <item>CAD-dolar kanadyjski</item>
+        <item>CHF-frank szwajcarski</item>
+        <item>CNY-juan chiński</item>
+        <item>CZK-korona czeska</item>
+        <item>DKK-korona duńska</item>
+        <item>EUR-euro</item>
+        <item>GBP-funt szterling</item>
+        <item>HKD-dolar hongkoński</item>
+        <item>HRK-kuna chrowacka</item>
+        <item>HUF-forint węgierski</item>
+        <item>IDR-rupia indonezyjska</item>
+        <item>INR-rupia indyjska</item>
+        <item>JPY-jen japoński</item>
+        <item>KRW-won południowokoreański</item>
+        <item>MXN-peso meksykańskie</item>
+        <item>MYR-ringgit malezyjski</item>
+        <item>NOK-korona norweska</item>
+        <item>NZD-dolarnowozelandzki</item>
+        <item>PHP-peso filipińskie</item>
+        <item>PLN-złoty polski</item>
+        <item>RON-lej rumuński</item>
+        <item>RUB-rubel rosyjski</item>
+        <item>SEK-korona szwedzka</item>
+        <item>SGD-dolar singapurski</item>
+        <item>THB-baht tajski</item>
+        <item>TRY-lira turecka</item>
+        <item>USD-dolar amerykański</item>
+        <item>ZAR-rand południowoafrykański</item>
+    </string-array>
+
+</resources>
